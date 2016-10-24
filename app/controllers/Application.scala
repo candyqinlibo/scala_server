@@ -10,6 +10,7 @@ object Application extends Controller {
 
   val resultWhenJsonIsNull:String = "{\"code\":1}"
   
+  
   def index = Action {
     Ok("ready!")
   }
